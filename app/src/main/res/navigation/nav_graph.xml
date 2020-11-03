@@ -9,4 +9,29 @@
         android:name="com.example.navigition.MainFragment"
         android:label="fragment_main"
         tools:layout="@layout/fragment_main" />
+    <fragment
+        android:id="@+id/chooserRecipientFragment"
+        android:name="com.example.navigition.ChooserRecipientFragment"
+        android:label="fragment_chooser_recipient"
+        tools:layout="@layout/fragment_chooser_recipient" />
+    <fragment
+        android:id="@+id/confirmationFragment"
+        android:name="com.example.navigition.ConfirmationFragment"
+        android:label="fragment_confirmation"
+        tools:layout="@layout/fragment_confirmation" />
+    <fragment
+        android:id="@+id/specifyAmountFragment"
+        android:name="com.example.navigition.SpecifyAmountFragment"
+        android:label="fragment_specify_amount"
+        tools:layout="@layout/fragment_specify_amount" />
+    <fragment
+        android:id="@+id/viewBalanceFragment"
+        android:name="com.example.navigition.ViewBalanceFragment"
+        android:label="fragment_view_balance"
+        tools:layout="@layout/fragment_view_balance" />
+    <fragment
+        android:id="@+id/viewTransactionFragment"
+        android:name="com.example.navigition.ViewTransactionFragment"
+        android:label="fragment_view_transaction"
+        tools:layout="@layout/fragment_view_transaction" />
 </navigation>
